@@ -44,7 +44,7 @@ body {
 
 button {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
@@ -136,7 +136,7 @@ button.delete img:hover {
 
 /* Completed */
 ul.incompleteTasks-section label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
@@ -147,7 +147,7 @@ ul li input[type=text] {
 
 ul li.editMode input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 ul li.editMode label {
